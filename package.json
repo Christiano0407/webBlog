@@ -1,0 +1,24 @@
+{
+  "name": "webblog",
+  "version": "1.0.0",
+  "description": "web blog with javascript and frameworks",
+  "main": "src/js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/webBlog.git"
+  },
+  "keywords": [
+    "javascript",
+    "blog",
+    "web"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/webBlog/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/webBlog#readme"
+}
