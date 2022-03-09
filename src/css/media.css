@@ -10,6 +10,15 @@
 }
 /*=============== Tablet  ========================================*/
 @media screen and (min-width: 768px) {
+  ..header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+  .logo {
+    width: 5rem;
+  }
 }
 /*=============== Screen Laptop ===================================*/
 @media screen and (min-width: 1024px) {
