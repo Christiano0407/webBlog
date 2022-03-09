@@ -22,3 +22,6 @@
 .screen-sm-hidden {
   display: none;
 }
+.btn {
+  cursor: pointer; 
+}
