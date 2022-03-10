@@ -3,6 +3,9 @@
 }
 /*=============== Mobile ========================================*/
 @media screen and (max-width: 480px) {
+  .logo {
+    font-size: 1.5rem;
+  }
 }
 
 /*=============== #Option ========================================*/
@@ -10,21 +13,37 @@
 }
 /*=============== Tablet  ========================================*/
 @media screen and (min-width: 768px) {
-  /* ..header {
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-  }
   .logo {
-    width: 5rem;
+    font-size: 2rem;
   }
-  .nav__menu {
-    width: 23rem;
-  } */
+  .search-form-container {
+  }
 }
 /*=============== Screen Laptop ===================================*/
 @media screen and (min-width: 1024px) {
+  .logo {
+    font-size: 3rem;
+  }
+  .menu {
+    position: static;
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .menu > .list {
+    flex-direction: row;
+  }
+  .screen-lg-hidden {
+    display: none;
+  }
+  .screen-sm-hidden {
+    display: block;
+  }
+  .sign-up-btn {
+    padding: 0.4rem;
+  }
 }
 /*=============== #Option ===================================*/
 @media only screen and (min-width: 1200px) {
