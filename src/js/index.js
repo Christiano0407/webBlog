@@ -1,5 +1,5 @@
 console.log("Blog Web Animation");
-// Grab Element >
+// Grab Element =====================================>
 const selectElement = (selector) => {
   const element = document.querySelector(selector);
   if (element) return element;
@@ -8,7 +8,7 @@ const selectElement = (selector) => {
   );
 };
 
-//> Nav style on Scroll ===>
+//> Nav style on Scroll ================================>
 const scrollHeader = () => {
   const navbarElement = selectElement(`#header`);
   if (this.scrollY >= 15) {
@@ -32,3 +32,15 @@ const toggleMenu = () => {
   menuToggleIcon.classList.toggle("activated");
 };
 menuToggleIcon.addEventListener("click", toggleMenu);
+
+// Open/Close search form popup ============== ==== =======>
+formOpenBtn.addEventListener("click", () =>
+  searchContainer.classList.add("activated")
+);
+formCloseBtn.addEventListener("click", () =>
+  searchContainer.classList.remove("activated")
+);
+//> Close the search form popup on ESC Keypress ====>> ====>>
+window.addEventListener("keyup", (event) => {
+  if (event.key === "escape") searchContainer.classList.remove("activated");
+});
