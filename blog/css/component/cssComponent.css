@@ -1,0 +1,35 @@
+/*== Componenets == */
+
+/*>>>>>> Btn*/
+.btn {
+  padding: 1rem;
+  border: none;
+  background: transparent;
+  outline: 2px solid #000;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+
+/* Reusable classes */
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.place-items-center {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.section:not(.feature-articles) {
+  padding-block: 5rem;
+}
+.d-grid {
+  display: grid;
+}
+.screen-sm-hidden {
+  display: none;
+}
