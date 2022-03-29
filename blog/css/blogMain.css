@@ -151,6 +151,8 @@ body.light-them {
 .logo {
   font-size: 2.4rem;
   color: #f2f2f2;
+  font-family: var(--font-family-play);
+  font-weight: 900;
 }
 .menu {
   outline: #131417 2px solid;
@@ -159,10 +161,11 @@ body.light-them {
 right: 1.5rem;
 width: 23rem;
 padding: 1.5rem;
-/* background-color: #252830; */
-/* opacity: 0; */
-/* transform: scale(0);
-transition:  opacity .25s ease-in; */
+border-radius: 1rem;
+background-color: #252830;
+opacity: 0;
+transform: scale(0);
+transition:  opacity .25s ease-in;
 }
 .menu  >  .list {
   flex-direction: column;
@@ -173,17 +176,51 @@ transition:  opacity .25s ease-in; */
   gap: 1rem;
   cursor: pointer;
 }
+.list-item {
+  padding: .5rem;
+}
+.list-link {
+  font-size: 1.6rem;
+  color: rgb(131, 131, 131);
+/*   filter: opacity(0.2); */
+}
 .list-link:active {
   transform: scale(0.9);
 }
 .list-link .current {
   color: #f2f2f2;
 }
-
+/*Work Javascript*/
 .close-menu-icon {
   display: none;
 }
+.moon-icon {
+  display: none;
+}
+.moon-icon .light-theme {
+  display: block;
+}
+.sun-icon .light-theme {
+  display: none;
+}
+
 /*Color Icon ==*/
 .list-link:hover, .btn:hover, .btn:hover span {
   color: #fff;
+}
+
+/*= Javascript Work Header=*/
+.header.activated {
+  box-shadow: 0 1px  .5rem  #2d2d2d;
+}
+.menu.activated {
+  box-shadow: 1px 1px 1px rgba(255,255,255,.05);
+  opacity: 1;
+  transform: scale(1);
+}
+.menu-toggle-icon.activated .open-menu-icon {
+  display: none;
+}
+.menu-toggle-icon.activated .close-menu-icon {
+  display: block;
 }
