@@ -133,3 +133,57 @@ body.light-them {
 }
 
 /*== Project ==*/
+.header {
+    /* outline: 2px solid black; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #2d2d2d;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+}
+.logo {
+  font-size: 2.4rem;
+  color: #f2f2f2;
+}
+.menu {
+  outline: #131417 2px solid;
+  position: absolute;
+  top: 8.5rem; 
+right: 1.5rem;
+width: 23rem;
+padding: 1.5rem;
+/* background-color: #252830; */
+/* opacity: 0; */
+/* transform: scale(0);
+transition:  opacity .25s ease-in; */
+}
+.menu  >  .list {
+  flex-direction: column;
+}
+.menu .list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.list-link:active {
+  transform: scale(0.9);
+}
+.list-link .current {
+  color: #f2f2f2;
+}
+
+.close-menu-icon {
+  display: none;
+}
+/*Color Icon ==*/
+.list-link:hover, .btn:hover, .btn:hover span {
+  color: #fff;
+}
