@@ -224,3 +224,8 @@ transition:  opacity .25s ease-in;
 .menu-toggle-icon.activated .close-menu-icon {
   display: block;
 }
+
+/* Search*/
+.search-form-container {
+  
+}
