@@ -209,7 +209,7 @@ transition:  opacity .25s ease-in;
   color: #fff;
 }
 
-/*= Javascript Work Header=*/
+/*= =====  Javascript Work Header= =======*/
 .header.activated {
   box-shadow: 0 1px  .5rem  rgba(255,255,255,.05);
 /*   box-shadow: 5px 15px  1rem  #2d2d2d; */

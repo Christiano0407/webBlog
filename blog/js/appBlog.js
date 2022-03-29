@@ -7,7 +7,7 @@
 //**Create your swiper >>>  */
 //const Swiper = new Swiper();
 
-//** ==== Blog Web Javascript  === */
+//** >>> ========== Blog Web Javascript  ===  ==================== <<<*/
 //** // Grab elements y Podremos seleccionar por medio del Element*/
 const selectElement = (selector) => {
   const element = document.querySelector(selector);
@@ -17,7 +17,7 @@ const selectElement = (selector) => {
   );
 };
 
-//** = Nav styles on scroll =  ====== =====> */
+//** >> = Nav styles on scroll =  ====== =====> */
 const scrollHeader = () => {
   const navBarElement = selectElement("#headerId");
 
@@ -30,4 +30,23 @@ const scrollHeader = () => {
 
 window.addEventListener("scroll", scrollHeader);
 
-//* Open menu & search pop-up >> === >>> */
+//* >> Open menu & search pop-up >> === ======= >>> */
+const menuToggleBurger = selectElement("#menu-toggle-icon");
+const formOpenBtn = selectElement("#search-icon");
+const formCloseBtn = selectElement("#form-close-btn");
+const searchContainer = selectElement("#search-form-container");
+console.log(menuToggleBurger);
+console.log(formOpenBtn);
+console.log(formCloseBtn);
+console.log(searchContainer);
+
+const activeToggleMenu = () => {
+  const mobileMenu = selectElement("#menuId");
+
+  mobileMenu.classList.toggle("activated");
+  menuToggleBurger.classList.toggle("activated");
+};
+
+menuToggleBurger.addEventListener("click", activeToggleMenu);
+
+//* >>  Open/Close search form popup ==================*/
