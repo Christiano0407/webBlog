@@ -121,15 +121,15 @@ i {
 /*Button == Normal e Oscuro*/
 body {
     width: 100%;
-  /*   background-color:  #131417;
-    color: #fff; */
+    background-color:  #131417;
+    color: #fff;
    
     transition: background-color .25s,  color .25s;
 }
 /* Theme color change */
-body.light-them {
+body.light-theme {
     background-color: #fff;
-    color: #131417;   
+    color: #131417; 
 }
 
 /*== Project ==*/
@@ -142,6 +142,13 @@ body.light-them {
     z-index: 999;
     background-color: #2d2d2d;
 }
+/* Header JavaScript Styles */
+.header.activated {
+  box-shadow: 0 1px .5rem rgba(255,255,255,.05);
+}
+/* .header.light-theme {
+  background-color: #fff;
+} */
 .navBar {
   display: flex;
   align-items: center;
@@ -155,7 +162,7 @@ body.light-them {
   font-weight: 900;
 }
 .menu {
-  outline: #131417 2px solid;
+ /*  outline: #131417 2px solid; */
   position: absolute;
   top: 8.5rem; 
 right: 1.5rem;
@@ -198,12 +205,15 @@ color: #f2f2f2
 .moon-icon {
   display: none;
 }
-.moon-icon  .light-theme {
-  display: block;
-}
-.sun-icon  .light-theme {
+.light-theme .sun-icon {
   display: none;
 }
+.light-theme .moon-icon {
+  display: block;
+}
+/* .light-theme {
+  background-color: #fff;
+} */
 
 /*Color Icon ==*/
 .list-link:hover, .btn:hover, .btn:hover span {

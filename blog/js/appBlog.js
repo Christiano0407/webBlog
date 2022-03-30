@@ -61,13 +61,14 @@ window.addEventListener("keyup", (event) => {
   if (event.key === "Escape") searchContainer.classList.remove("activated");
 });
 
-//* >>  Switch theme/add to local storage ================= >>>>> >>>> >>>>> >>> */
+//* >>  Switch theme/add to local storage ===== Cambiar color Luz y Oscuro============ >>>>> >>>> >>>>> >>> */
 const body = document.body;
 console.log(body);
 const themeToggleBtn = selectElement("#theme-toggle-btn");
 const currentTheme = localStorage.getItem("currentTheme");
 //console.log(currentTheme);
 console.log(themeToggleBtn);
+
 //* =  Check to see if there is a theme preference in local Storage, if so add the ligt theme to the body*/
 if (currentTheme) {
   body.classList.add("light-theme");
