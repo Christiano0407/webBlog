@@ -417,3 +417,7 @@ background-color: #fff;
 }
 
 /* Sidebar */
+.sidebar {
+padding: 2.5rem;
+background-color: #2d2d2d;
+}
