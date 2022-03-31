@@ -1,6 +1,6 @@
 //** ==== Blog Web Javascript  === */
 //**Import Swiper  >>> */
-//import { Swiper } from "swiper";
+//import Swiper from "swiper";
 //**Import Swiper Styles >>>  */
 //import "swiper/css";
 
@@ -86,3 +86,38 @@ themeToggleBtn.addEventListener("click", function () {
 });
 
 //* Swiper ===== === == >>> >>>  ============================== >>>>>>>>>>>*/
+const swiper = new Swiper(".swiper", {
+  // How many slides to show
+  slidesPerView: 1,
+  // How much space between slides
+  spaceBetween: 20,
+  // Make the next and previous buttons work
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  // Make the pagination indicators work
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  //Responsive breakpoints for how many slides to show at that view
+  breakpoints: {
+    480: {
+      slidesPerView: 1,
+    },
+    // 700px and up shoes 2 slides
+    700: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    // 1200px and up shoes 3 slides
+    1024: {
+      slidesPerView: 4,
+    },
+    1440: {
+      slidesPerView: 5,
+    },
+  },
+});

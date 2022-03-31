@@ -2,6 +2,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .swiper {
+    width: 400px;
+  }
 }
 
 @media (min-width: 700px) {
@@ -19,6 +22,9 @@
   }
   #trendingImgBox {
     width: 50%;
+  }
+  .swiper {
+    width: 600px;
   }
 }
 
@@ -48,9 +54,18 @@
   .featured__articles--container {
     grid-template-columns: 1fr 40rem;
   }
-  .feature__content--title {
+  #featureTitle {
     font-size: 2.2rem;
     font-weight: 800;
+  }
+  .article__data {
+    flex-direction: column;
+  }
+  #articleImg {
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .swiper {
+    width: 700px;
   }
 }
 
@@ -98,14 +113,26 @@
     font-size: 2.8rem;
     font-weight: bold;
   }
+  /* #articleData {
+    flex-direction: none;
+  } */
+  #trendingBox {
+    justify-self: center;
+  }
   #trendingImgBox {
     width: 10rem;
     height: 10rem;
+  }
+  .swiper {
+    width: 900px;
   }
 }
 
 /*=============== Laptop Large  ===================================*/
 @media only screen and (min-width: 1440px) {
+  .swiper {
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
