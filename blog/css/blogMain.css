@@ -526,3 +526,23 @@ background-color: #2d2d2d;
 }
 
 /* Older posts */
+.older-posts-article-image-wrapper {
+  gap: 1rem;
+}
+.older-posts-article-image-wrapper, 
+.older__posts .article {
+  min-height: 20rem;
+}
+.older-posts-article-image-wrapper {
+  position: relative;
+}
+.older__posts .article {
+  background-color: #2d2d2d;
+}
+.older-posts-grid-wrapper .article__data--container {
+  position: static;
+  background-color: transparent;
+}
+.article-title .older-posts-grid-wrapper {
+  margin-bottom: 2rem;
+}
