@@ -527,7 +527,7 @@ background-color: #2d2d2d;
 
 /* Older posts */
 .older-posts-article-image-wrapper {
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .older-posts-article-image-wrapper, 
 .older__posts .article {
@@ -539,10 +539,33 @@ background-color: #2d2d2d;
 .older__posts .article {
   background-color: #2d2d2d;
 }
-.older-posts-grid-wrapper .article__data--container {
+#olderGrid .article__data--container {
   position: static;
   background-color: transparent;
 }
+#olderGrid {
+  gap: 2rem;
+}
 .article-title .older-posts-grid-wrapper {
   margin-bottom: 2rem;
+}
+.see-more-btn {
+  text-transform: uppercase;
+}
+
+/* == Popular Tags ===*/
+.popular__tag--container {
+  gap: 1rem;
+}
+.popular__tag--container .article {
+  min-height: 20rem;
+}
+.tag-name {
+  padding: 1rem 2rem;
+  background-color: rgba(255,255,255,.05);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }

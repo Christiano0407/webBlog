@@ -67,6 +67,12 @@
   .swiper {
     width: 750px;
   }
+  #olderPost {
+    grid-template-columns: 25rem 1fr;
+  }
+  .older-posts-article-image-wrapper {
+    height: auto;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -126,12 +132,22 @@
   .swiper {
     width: 950px;
   }
+  .older-posts-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*=============== Laptop Large  ===================================*/
 @media only screen and (min-width: 1440px) {
   .swiper {
     width: auto;
+  }
+  .featured__article {
+    grid-column: 3 / -1;
+  }
+  .featured__article--1 {
+    grid-column: 1/3;
+    grid-row: 2/-1;
   }
 }
 
