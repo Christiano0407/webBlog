@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 480px) {
   .swiper {
-    width: 400px;
+    width: 450px;
   }
 }
 
@@ -24,7 +24,7 @@
     width: 50%;
   }
   .swiper {
-    width: 600px;
+    width: 650px;
   }
 }
 
@@ -65,7 +65,7 @@
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
   }
   .swiper {
-    width: 700px;
+    width: 750px;
   }
 }
 
@@ -124,7 +124,7 @@
     height: 10rem;
   }
   .swiper {
-    width: 900px;
+    width: 950px;
   }
 }
 
