@@ -44,6 +44,9 @@
     font-weight: 900;
     padding: 1rem;
   }
+  .company__data {
+    order: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -90,6 +93,12 @@
   }
   .older-posts-article-image-wrapper {
     height: auto;
+  }
+  .footer__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .company__data {
+    grid-column: span 2;
   }
 }
 
