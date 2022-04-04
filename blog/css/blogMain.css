@@ -610,3 +610,28 @@ background-color: #2d2d2d;
 .popular__tag--container .article:hover .article-image {
   transform: scale(1.05);
 }
+
+/* == Newsletter ==*/
+.newsletter {
+  padding-bottom: 4rem;
+}
+#newsletter {
+  font-size: 2.4rem;
+}
+.newsletter__description {
+  margin-bottom: 3rem;
+}
+#titleNews::after {
+    content: " ";
+    width: 50%;
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    border: 2px solid #000;
+    position: relative;
+    left: 25%;
+  }
+/*==== Footer =====*/
+.footer {
+  background-color: #131417;
+}

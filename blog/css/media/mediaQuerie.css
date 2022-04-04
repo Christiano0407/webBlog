@@ -26,6 +26,24 @@
   .swiper {
     width: 650px;
   }
+  .newsletter__description {
+    max-width: 40rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    filter: opacity(0.5);
+  }
+  .form-container-inner {
+    align-items: center;
+  }
+  .form__input {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  #titleNews {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
