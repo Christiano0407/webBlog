@@ -554,6 +554,22 @@ background-color: #2d2d2d;
 }
 
 /* == Popular Tags ===*/
+#containerPopular {
+  width: 35rem;
+}
+#title {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+#title::after {
+  content: " ";
+  display: flex;
+  width: 25%;
+  border: 1px solid #131417;
+  border-radius: 1rem;
+  margin-top: .5rem;
+}
 .popular__tag--container {
   gap: 1rem;
 }
@@ -562,7 +578,7 @@ background-color: #2d2d2d;
 }
 .tag-name {
   padding: 1rem 2rem;
-  background-color: rgba(255,255,255,.05);
+  color: rgba(255,255,255,.05);
   position: absolute;
   top: 50%;
   left: 50%;
