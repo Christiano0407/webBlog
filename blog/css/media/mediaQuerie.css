@@ -100,6 +100,13 @@
   .company__data {
     grid-column: span 2;
   }
+  .company__description {
+    max-width: 85%;
+  }
+  .copyright__notice {
+    margin-top: auto;
+    color: #fff;
+  }
 }
 
 @media (min-width: 1200px) {
