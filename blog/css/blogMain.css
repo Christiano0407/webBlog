@@ -568,6 +568,7 @@ background-color: #2d2d2d;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
+  font-size: 2rem;
 }
 #articleImgPopular {
     position: absolute;
@@ -580,4 +581,16 @@ background-color: #2d2d2d;
     background-repeat: no-repeat;
     border: none;
     border-radius: 0;
+}
+#articleImgPopular:hover {
+  filter: brightness(0.5);
+}
+.popular__tag--container .article:hover .tag-name {
+  color: #f2f2f2;
+}
+.popular__tag--container .article {
+  overflow: hidden;
+}
+.popular__tag--container .article:hover .article-image {
+  transform: scale(1.05);
 }
