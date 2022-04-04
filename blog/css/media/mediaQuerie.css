@@ -5,6 +5,12 @@
   .swiper {
     width: 450px;
   }
+  .container {
+    padding: 0;
+  }
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 700px) {
@@ -44,6 +50,9 @@
     font-weight: 900;
     padding: 1rem;
   }
+  .footer__container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .company__data {
     order: 0;
   }
@@ -68,6 +77,12 @@
   .featured__article--3 {
     grid-column: 1 / -1;
     grid-row: 4/6;
+  }
+  #titleFeature {
+    text-align: center;
+  }
+  #containerPopular {
+    width: 35rem;
   }
   .older-posts .article {
     grid-template-columns: 25rem 1fr;

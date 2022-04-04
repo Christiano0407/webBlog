@@ -554,9 +554,6 @@ background-color: #2d2d2d;
 }
 
 /* == Popular Tags ===*/
-#containerPopular {
-  width: 35rem;
-}
 #title {
   margin-bottom: 2rem;
   font-weight: 700;
