@@ -36,6 +36,11 @@ Create Blog Web with HTML, CSS, Vanilla Javascript and frameworks
 - font-size-small: 1.2rem;
 - font-size-small-plus: 0.8rem;
 
+# Images and Icons
+
+- [Unsplash](https://unsplash.com/)
+- [Font Awesome](https://fontawesome.com/icons?d=gallery)
+
 # CDN
 
 - [CDN](https://cdnjs.com/)
