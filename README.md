@@ -4,6 +4,8 @@ Create Blog Web with HTML, CSS, Vanilla Javascript and frameworks
 
 # Images Project Blog
 
+![](/src/assets/image/blog.png);
+
 # MIT License
 
 > Choose License
