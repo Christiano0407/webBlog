@@ -14,16 +14,6 @@ Create Blog Web with HTML, CSS, Vanilla Javascript and frameworks
 
 ![](/src/assets/image/blog4.png)
 
-![](/src/assets/image/blog5.png)
-
-![](src/assets/image/blog6.png)
-
-![](/src/assets/image/blog7.png)
-
-![](/src/assets/image/blog8.png)
-
-![](/src/assets/image/blog9.png)
-
 # MIT License
 
 > Choose License
