@@ -2,7 +2,47 @@
 
 Create Blog Web with HTML, CSS, Vanilla Javascript and frameworks
 
+# FreeCoeCamp
+
+> Inspiration Blog
+
+- [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
+
+# Design System
+
+> All Design System of Project
+
+> Palette Color
+
+- [Adobe Color](https://color.adobe.com/es/create/color-wheel)
+- white: #fff;
+- white2: #F2F2F2;
+- black: #000;
+- black-2: #0d0d0d;
+
+> Fonts
+
+- [Google Fonts](https://fonts.google.com/)
+- font-family-roboto: 'Roboto', sans-serif;
+- font-family-play: 'Play', sans-serif;
+
+> Font-size
+
+- font-size-extra: 3rem;
+- font-size-title: 2.4rem;
+- font-size-Big: 1.8rem;
+- font-size-Medium: 1.6rem;
+- font-size-medium-plus: 1.5rem;
+- font-size-small: 1.2rem;
+- font-size-small-plus: 0.8rem;
+
+# CDN
+
+- [CDN](https://cdnjs.com/)
+
 # Images Project Blog
+
+> Images Of Project Blog
 
 ![](/src/assets/image/blog1.png)
 
