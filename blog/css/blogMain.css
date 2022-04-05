@@ -725,10 +725,22 @@ background-color: #2d2d2d;
   font-style: italic;
 }
 .text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 .quote span {
   font-size: 5rem;
+}
+.author {
+  margin-top: 5rem;
+  gap: 1rem;
+}
+.author {
+  background-color: #131417;
+}
+.author__image--box {
+  position: relative;
+  height: 20rem;
 }
