@@ -4,7 +4,152 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/src/assets/icons/favicon.png"
+    />
+    <!--Add-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/blog/css/blogMain.css" />
     <title>Blog Web Post</title>
   </head>
-  <body></body>
+  <body>
+    <!-- === Header ===-->
+    <header id="headerId" class="header">
+      <nav class="navBar container" id="navigation">
+        <a href="./post.html">
+          <h2 id="logoId" class="logo">Room Virtual</h2>
+        </a>
+        <!--Header Menu-->
+        <div id="menuId" class="menu">
+          <ul id="listId" class="list">
+            <li class="list-item">
+              <a href="#" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Categories</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Reviews</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">News</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Membership</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Contact</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#" class="list-link screen-lg-hidden" id="screenLg"
+                >Sign in</a
+              >
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link screen-lg-hidden" id="screenLg"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!--List  Right Light and Black-->
+        <div id="listRight" class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+
+          <button class="btn place-items-center" id="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button
+            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="fa-solid fa-bars open-menu-icon"></i>
+            <i class="fa-solid fa-xmark close-menu-icon"></i>
+          </button>
+
+          <!--Btn Screen-->
+          <a href="#" id="screenSm" class="list-link screen-sm-hidden"
+            >Sign in</a
+          >
+          <a
+            href="#"
+            id="screenSm"
+            class="list-link screen-sm-hidden btn sign-up-btn fancy-border"
+            ><span>Sign up</span></a
+          >
+        </div>
+      </nav>
+    </header>
+    <!--Search-->
+    <section
+      class="search__form--container container"
+      id="search-form-container"
+    >
+      <div class="form__container--inner">
+        <form action="" class="form">
+          <input
+            class="form-input"
+            type="text"
+            placeholder="What are you looking for?"
+          />
+          <button class="btn form-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <span class="form-note">Or Esc to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </section>
+
+    <!-- == Blog Post ==-->
+
+    <!-- == Blog Javascript == -->
+    <!--Add Swiper CDN or NPM-->
+    <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/blog/js/appBlog.js"></script>
+  </body>
 </html>
