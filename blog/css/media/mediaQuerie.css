@@ -55,6 +55,10 @@
   }
   .company__data {
     order: 0;
+    grid-column: 1 / 3;
+  }
+  .author {
+    grid-template-columns: 25rem 1fr;
   }
 }
 
@@ -122,6 +126,9 @@
     margin-top: auto;
     color: #fff;
   }
+  .blog__post--data img {
+    height: 30rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -183,6 +190,18 @@
   }
   .older-posts-grid-wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .popular__tag--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .company__data {
+    grid-column: span 2;
+  }
+  .blog__post--data #blogImg {
+    height: 40rem;
   }
 }
 

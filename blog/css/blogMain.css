@@ -639,6 +639,7 @@ background-color: #2d2d2d;
   display: flex;
   flex-direction: column;
   order: 1;
+
 }
 .company__description {
   margin-block: 2rem;
@@ -720,6 +721,7 @@ background-color: #2d2d2d;
 .quote {
   padding: 2.5rem;
   background-color: #131417;
+  margin-bottom: 1rem;
 }
 .quote p {
   font-style: italic;
@@ -743,4 +745,24 @@ background-color: #2d2d2d;
 .author__image--box {
   position: relative;
   height: 20rem;
+}
+.author__about {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.author-name {
+  color: #f1f1f1;
+  font-weight: 400;
+  filter: opacity(0.5);
+}
+.author__about p {
+  max-width: 50rem;
+  margin-bottom: 1rem;
+}
+.author__about .social-media {
+  margin-top: auto;
+  margin-bottom: 0;
+  display: flex;
 }
